@@ -1,12 +1,14 @@
 [
-   {
-      "repository": "device_lenovo_sdm710-common",
+  {
+      "repository": "device_lenovo_jd2019-common",
       "target_path": "device/lenovo/sdm710-common",
-      "branch": "dot11"
-   },
-   {
-      "repository":  "vendor_lenovo_jd2019",
+      "branch": "dot11",
+      "remote": "dotOS-Devices"
+  },
+  {
+      "repository": "proprietary_vendor_lenovo_jd2019",
       "target_path": "vendor/lenovo/jd2019",
       "branch": "dot11",
-   }
+      "remote": "dotOS-Devices"
+  }
 ]
