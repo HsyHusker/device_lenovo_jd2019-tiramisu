@@ -23,4 +23,4 @@ Front Camera | 15.93 MP
 Release Date | 2018, December 24
 
 ## Device picture
-![Lenovo Z5S](https://camo.githubusercontent.com/3d5c2b2ccc2b35555f823fa5ba449f542f3c766a5ad905e039ecf66527e6fe12/68747470733a2f2f706f636b65746e6f772e636f6d2f66696c65732f323031382f31322f4c656e6f766f2d5a35732e706e67)
+![Lenovo Z5S](https://raw.githubusercontent.com/HsyHusker/miscstuff/main/lenovo_z5s_device_picture-orange.png)
