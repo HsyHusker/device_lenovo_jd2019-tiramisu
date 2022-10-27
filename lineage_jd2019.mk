@@ -16,21 +16,26 @@
 
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Pixel Experience targets
-TARGET_BOOT_ANIMATION_RES := 1080
+# Boot Animation Resolution
+SUSHI_BOOTANIMATION := 1080
 
-# Inherit some common dotOS stuff
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common riceDroid stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# dotOS
-TARGET_INCLUDE_PIXEL_CHARGER := true
+# riceDroid
+RICE_OFFICIAL := true
+RICE_MAINTAINER := HsyHusker
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_EXCLUDES_AUDIOFX := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_jd2019
+PRODUCT_NAME := lineage_jd2019
 PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := lenovo
-PRODUCT_MODEL := Z5s
+PRODUCT_MODEL := Lenovo Z5s
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo

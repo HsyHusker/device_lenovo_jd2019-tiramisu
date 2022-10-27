@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_jd2019.mk
+    $(LOCAL_DIR)/lineage_jd2019.mk
